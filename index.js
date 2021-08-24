@@ -111,7 +111,7 @@ function setWeather() {
             long = position.coords.longitude
 
             // Set The API
-            const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}`
+            const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}`
 
             //get weather
             fetch(api)
