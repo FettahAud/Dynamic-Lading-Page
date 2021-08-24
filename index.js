@@ -41,6 +41,7 @@ function bgGrate() {
     if (hour < 12) {
         greating.textContent = 'Good Morning'
         document.body.style.backgroundImage = 'url(./olivier-miche-CDzTgaSI86U-unsplash.jpg)'
+        document.body.style.color = 'white'
     }else if (hour < 18)
     { 
         greating.textContent = 'Good AfterNoon'
